@@ -1,24 +1,20 @@
 <?php
 /**
- * @link https://github.com/brussens/yii2-trumbowyg
- * @copyright Copyright © since 2018 Brusensky Dmitry. All rights reserved
+ * @link https://github.com/androphin/yii2-trumbowyg
  * @licence http://opensource.org/licenses/MIT MIT
  */
 
-namespace brussens\yii2\extensions\trumbowyg;
+namespace androphin\yii2\extensions\trumbowyg;
 
 use Yii;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\web\AssetBundle;
 use yii\widgets\InputWidget;
-use brussens\yii2\extensions\trumbowyg\assets\TrumbowygAsset;
+use androphin\yii2\extensions\trumbowyg\assets\TrumbowygAsset;
 
 /**
  * Trumbowyg plugin widget.
- *
- * @since 1.0.0
- * @author Brusensky Dmitry <brussens@nativeweb.ru>
  */
 class TrumbowygWidget extends InputWidget
 {
@@ -152,7 +148,7 @@ class TrumbowygWidget extends InputWidget
 
         if(isset($plugins[$name])) {
             /** @var AssetBundle $asset */
-            $asset = 'brussens\yii2\extensions\trumbowyg\assets\plugins\\' . $plugins[$name];
+            $asset = 'androphin\yii2\extensions\trumbowyg\assets\plugins\\' . $plugins[$name];
             $asset::register($this->getView());
         }
     }
@@ -210,7 +206,7 @@ class TrumbowygWidget extends InputWidget
         $language = $this->clientOptions['lang'];
         if(isset($languages[$language])) {
             /** @var AssetBundle $asset */
-            $asset = 'brussens\yii2\extensions\trumbowyg\assets\langs\\' . $languages[$language];
+            $asset = 'androphin\yii2\extensions\trumbowyg\assets\langs\\' . $languages[$language];
             $asset::register($this->getView());
         }
     }

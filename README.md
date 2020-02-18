@@ -1,4 +1,4 @@
-# Trumbowyg extension for YiiFramework 2.x.x
+# Trumbowyg extension for Yii 2
 
 
 ## Install

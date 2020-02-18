@@ -1,19 +1,19 @@
 <?php
 /**
- * @link https://github.com/brussens/yii2-trumbowyg
- * @copyright Copyright © since 2018 Brusensky Dmitry. All rights reserved
+ * @link https://github.com/androphin/yii2-trumbowyg
+
  * @licence http://opensource.org/licenses/MIT MIT
  */
 
-namespace brussens\yii2\extensions\trumbowyg\assets\langs;
+namespace androphin\yii2\extensions\trumbowyg\assets\langs;
 
-use brussens\yii2\extensions\trumbowyg\assets\LangAsset;
+use androphin\yii2\extensions\trumbowyg\assets\LangAsset;
 
 /**
  * Polish translation Asset Bundle
  *
  * @since 1.0.0
- * @author Brusensky Dmitry <brussens@nativeweb.ru>
+
  */
 class PlLangAsset extends LangAsset
 {

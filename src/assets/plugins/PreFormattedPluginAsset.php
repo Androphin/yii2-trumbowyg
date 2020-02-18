@@ -1,19 +1,19 @@
 <?php
 /**
- * @link https://github.com/brussens/yii2-trumbowyg
- * @copyright Copyright © since 2018 Brusensky Dmitry. All rights reserved
+ * @link https://github.com/androphin/yii2-trumbowyg
+
  * @licence http://opensource.org/licenses/MIT MIT
  */
 
-namespace brussens\yii2\extensions\trumbowyg\assets\plugins;
+namespace androphin\yii2\extensions\trumbowyg\assets\plugins;
 
-use brussens\yii2\extensions\trumbowyg\assets\PluginAsset;
+use androphin\yii2\extensions\trumbowyg\assets\PluginAsset;
 
 /**
  * PreFormatted plugin Asset Bundle
  *
  * @since 1.0.0
- * @author Brusensky Dmitry <brussens@nativeweb.ru>
+
  */
 class PreFormattedPluginAsset extends PluginAsset
 {
