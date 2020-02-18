@@ -1,17 +1,17 @@
 {
-    "name": "brussens/yii2-trumbowyg",
-    "description": "Trumbowyg extension for YiiFramework 2.x.x",
+    "name": "androphin/yii2-trumbowyg",
+    "description": "Trumbowyg extension for Yii 2",
     "keywords": ["yii", "extension", "widget", "trumbowyg", "wysiwyg", "yii2"],
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/brussens/yii2-trumbowyg/issues?state=open",
-        "source": "https://github.com/brussens/yii2-trumbowyg"
+        "issues": "https://github.com/androphin/yii2-trumbowyg/issues?state=open",
+        "source": "https://github.com/androphin/yii2-trumbowyg"
     },
     "authors": [
         {
-            "name": "Dmitry Brusensky",
-            "email": "brussens@nativeweb.ru"
+            "name": "androphin",
+            "email": "androphin@ymail.com"
         }
     ],
     "minimum-stability": "stable",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "brussens\\yii2\\extensions\\trumbowyg\\": "src/"
+            "androphin\\yii2\\extensions\\trumbowyg\\": "src/"
         }
     },
     "repositories": [
